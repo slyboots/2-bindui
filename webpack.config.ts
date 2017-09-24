@@ -70,7 +70,7 @@ const config: webpack.Configuration = {
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'index.js',
-        library: "-tachyui",
+        library: "2tachyui",
         libraryTarget: "umd",
         umdNamedDefine: true
     }
