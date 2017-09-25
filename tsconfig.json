@@ -21,11 +21,11 @@
             "es2016"
         ],
         "traceResolution": true,
-        "listFiles": true,
-        "jsx": "preserve"
+        "listFiles": true
     },
     "include": [
-        "src/*"
+        "src/*",
+        "src/lib/*"
     ],
     "exclude": [
         "node_modules",
