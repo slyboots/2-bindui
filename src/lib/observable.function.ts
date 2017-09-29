@@ -18,7 +18,7 @@ export function Observable(value?: any) {
     return accessor as any;
   }
 
-export function bindValue(input: any, property: string, event: string, observable: any, callback: (i?: any) => void) {
+export function bindValue(input: Element, property: string, event: string, observable: any, callback: (i?: any) => void) {
     const initial: any = observable();
     input[property] = initial;
     observable.subscribe(function () { input[property] = observable(); });
